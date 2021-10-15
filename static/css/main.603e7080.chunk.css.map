@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,OACI,cAAc,CACd,aACJ,CAKA,eAHI,cAAc,CACd,aAKJ","file":"main.603e7080.chunk.css","sourcesContent":[".large{\n    font-size:40px;\n    color:rgb(12, 218, 22);\n}\n.flash{\n    font-size:30px;\n    color:rgb(12, 218, 22);\n}\n.flash2{\n    font-size:30px;\n    color:rgb(12, 218, 22);\n}\n"]}
