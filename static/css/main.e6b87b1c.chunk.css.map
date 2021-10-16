@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,OACI,cAAe,CACf,aACJ","file":"main.e6b87b1c.chunk.css","sourcesContent":[".large{\r\n    font-size: 35px;\r\n    color: cornflowerblue;\r\n}"]}
