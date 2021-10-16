@@ -31,7 +31,7 @@ setAlert({
       setMode('dark');
       document.body.style.backgroundColor= '#042743';
       showAlert("Dark mode ON","success");
-      document.title = 'TextUtlis - Dark Mode';
+      // document.title = 'TextUtlis - Dark Mode';
       // setInterval(()=>{
       //   document.title='install this App';
       // }, 1000);
@@ -42,15 +42,15 @@ setAlert({
     else{
       setMode('light');
       document.body.style.backgroundColor= 'white';
-      showAlert("Light mode enable","success");
-      document.title = 'TextUtlis - light Mode';
+      showAlert("Dark mode OFF","success");
+      // document.title = 'TextUtlis - light Mode';
     }
   }
   return (
    <>
-   <Navbar/>
+   {/* <Navbar/> */}
 {/* <Router> */}
- <Navbar title="TextUtils" mode={mode} textMe="my about" toggleMode={toggleMode}/>
+ <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}/>
  <Alert alert={alert}/>
  <div className="container my-3">
  {/* <Switch> */}
@@ -60,9 +60,10 @@ setAlert({
           {/* <Route path="/"> */}
           {/* </Route> */}
         {/* </Switch> */}
-        <TextForm showAlert={showAlert} heading="Enter The Text Here" mode={mode}/>
+        <TextForm showAlert={showAlert} heading="TextUtlis - Text Editor, Word Counter, Character Counter" mode={mode}/>
+        {/* </About> */}
  </div>
-{/* </Router> */}
+// {/* </Router> */}
  
    </>
    

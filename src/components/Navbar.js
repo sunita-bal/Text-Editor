@@ -18,10 +18,7 @@ export default function Navbar(props){
         <li className="nav-item ">
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        {/* <span className="flash2 mx-3"><FaAngellist/></span>
-        <li className="nav-item">
-          <a className="nav-a" href="/about">{props.textMe}</a>
-        </li> */}
+       
        
       </ul> 
       {/* <form className="d-flex">
@@ -38,10 +35,6 @@ export default function Navbar(props){
     )
 }
 Navbar.propTypes = {
-    title: PropTypes.string.isRequired,
-    textMe: PropTypes.string.isRequired
+    title: PropTypes.string,
+    textMe: PropTypes.string
     }
-Navbar.defaultProps = {
-    title:'Set title here',
-    textMe:'About text here'
-};

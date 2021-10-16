@@ -23,10 +23,6 @@ export default function About() {
   return (
     <>
     <div className="container" style={myStyle}>
-      <div className="form-check form-switch">
-        <input className="form-check-input" onClick={toggleStyle} type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-        <label className="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
-        </div>
       <div className="container my-4" >
         <h2 className="pop" style={myStyle}>About us</h2>
         <div className="accordion" id="accordionExample">
